@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starbucks Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section>
+        <div class="circle"></div>
+        <header>
+            <a href="#"><img src="./img/logo.png" class="logo" alt="Starbucks Logo"></a>
+            <div class="toggle" onclick="toggleMenu();"></div>
+            <ul class="navigation">
+                <li><a href="">Home</a> </li>
+                <li><a href="">Menu</a> </li>
+                <li><a href="">What's New</a> </li>
+                <li><a href="">Contact Us</a> </li>
+            </ul>
+        </header>
+        <div class=" content">
+            <div class="textBox">
+
+                <h2>It's not just coffe <br> It's <span>Starbucks</span></h2>
+                <p>Every day, Starbucks partners go to work hoping to do two <br>things
+                    : share great coffee with friends and help make <br>the world a little better.
+                    It was true when the first Starbucks opened in 1971<br> </p>
+                <a href="">Learn More</a>
+
+            </div>
+            <div class="imgBox">
+                <img src="img/img1.png" class="starbucks" alt="Starbucks">
+            </div>
+
+        </div>
+        <ul class="thumb">
+            <li><img src="img/thumb1.png" onclick="imgSlider('img1.png');chaneCircleColor('#017143')" alt="Starbucks shake"></li>
+            <li><img src="img/thumb2.png" onclick="imgSlider('img2.png');chaneCircleColor('#eb7495')" alt="Starbucks shake"></li>
+            <li><img src="img/thumb3.png" onclick="imgSlider('img3.png');chaneCircleColor('#d752b1')" alt="Starbucks shake"></li>
+        </ul>
+        <ul class="sci">
+            <li><a href=""><img src="img/facebook.png" alt="social media icon"></a></li>
+            <li><a href=""><img src="img/twitter.png" alt="social media icon"></a></li>
+            <li><a href=""><img src="img/instagram.png" alt="social media icon"></a></li>
+        </ul>
+    </section>
+    <script type="text/javascript" src="script.js"></script>
+
+</body>
+
+</html>
